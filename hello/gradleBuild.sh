@@ -3,4 +3,4 @@
 echo "starting the build for microservice"
 export GRADLE_HOME=/opt/gradle/gradle-6.9.1
 export PATH=${GRADLE_HOME}/bin:${PATH}
-gradle clean build
+gradle build
